@@ -1,0 +1,15 @@
+	component cpu is
+		port (
+			clk_clk           : in  std_logic                     := 'X'; -- clk
+			pio_export        : in  std_logic                     := 'X'; -- export
+			pio_buzzer_export : out std_logic;                            -- export
+			pio_lcd_export    : out std_logic_vector(10 downto 0);        -- export
+			rs232_RXD         : in  std_logic                     := 'X'; -- RXD
+			rs232_TXD         : out std_logic;                            -- TXD
+			vga_rgb           : out std_logic_vector(2 downto 0);         -- rgb
+			vga_hsync         : out std_logic;                            -- hsync
+			vga_vsync         : out std_logic;                            -- vsync
+			vga_leds          : out std_logic_vector(7 downto 0)          -- leds
+		);
+	end component cpu;
+

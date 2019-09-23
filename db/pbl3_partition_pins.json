@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pio_buzzer_export",
+					"strict" : false
+				},
+				{
+					"name" : "pio_lcd_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pio_lcd_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pio_lcd_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pio_lcd_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pio_lcd_export[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pio_lcd_export[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pio_lcd_export[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pio_lcd_export[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pio_lcd_export[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pio_lcd_export[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pio_lcd_export[10]",
+					"strict" : false
+				},
+				{
+					"name" : "rs232_TXD",
+					"strict" : false
+				},
+				{
+					"name" : "vga_rgb[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_rgb[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_rgb[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_hsync",
+					"strict" : false
+				},
+				{
+					"name" : "vga_vsync",
+					"strict" : false
+				},
+				{
+					"name" : "vga_leds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_leds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_leds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_leds[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_leds[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_leds[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_leds[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_leds[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_clk",
+					"strict" : false
+				},
+				{
+					"name" : "pio_export",
+					"strict" : false
+				},
+				{
+					"name" : "rs232_RXD",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

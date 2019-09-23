@@ -1,0 +1,135 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 272 368)
+	(text "cpu" (rect 126 -1 140 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 352 20 364)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 112 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "pio_export" (rect 0 0 41 12)(font "Arial" (font_size 8)))
+		(text "pio_export" (rect 4 101 64 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 112 112)(line_width 1))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "rs232_RXD" (rect 0 0 49 12)(font "Arial" (font_size 8)))
+		(text "rs232_RXD" (rect 4 221 58 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 112 232)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "pio_buzzer_export" (rect 0 0 71 12)(font "Arial" (font_size 8)))
+		(text "pio_buzzer_export" (rect 4 141 106 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 112 152)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(output)
+		(text "pio_lcd_export[10..0]" (rect 0 0 81 12)(font "Arial" (font_size 8)))
+		(text "pio_lcd_export[10..0]" (rect 4 181 130 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 112 192)(line_width 3))
+	)
+	(port
+		(pt 0 248)
+		(output)
+		(text "rs232_TXD" (rect 0 0 47 12)(font "Arial" (font_size 8)))
+		(text "rs232_TXD" (rect 4 237 58 248)(font "Arial" (font_size 8)))
+		(line (pt 0 248)(pt 112 248)(line_width 1))
+	)
+	(port
+		(pt 0 288)
+		(output)
+		(text "vga_rgb[2..0]" (rect 0 0 54 12)(font "Arial" (font_size 8)))
+		(text "vga_rgb[2..0]" (rect 4 277 82 288)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 112 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(output)
+		(text "vga_hsync" (rect 0 0 46 12)(font "Arial" (font_size 8)))
+		(text "vga_hsync" (rect 4 293 58 304)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 112 304)(line_width 1))
+	)
+	(port
+		(pt 0 320)
+		(output)
+		(text "vga_vsync" (rect 0 0 47 12)(font "Arial" (font_size 8)))
+		(text "vga_vsync" (rect 4 309 58 320)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 112 320)(line_width 1))
+	)
+	(port
+		(pt 0 336)
+		(output)
+		(text "vga_leds[7..0]" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "vga_leds[7..0]" (rect 4 325 88 336)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 112 336)(line_width 3))
+	)
+	(drawing
+		(text "clk" (rect 97 43 212 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 117 67 252 144)(font "Arial" (color 0 0 0)))
+		(text "pio" (rect 96 83 210 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 107 270 224)(font "Arial" (color 0 0 0)))
+		(text "pio_buzzer" (rect 50 123 160 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 147 270 304)(font "Arial" (color 0 0 0)))
+		(text "pio_lcd" (rect 72 163 186 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 117 187 270 384)(font "Arial" (color 0 0 0)))
+		(text "rs232" (rect 80 203 190 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "RXD" (rect 117 227 252 464)(font "Arial" (color 0 0 0)))
+		(text "TXD" (rect 117 243 252 496)(font "Arial" (color 0 0 0)))
+		(text "vga" (rect 93 259 204 531)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "rgb" (rect 117 283 252 576)(font "Arial" (color 0 0 0)))
+		(text "hsync" (rect 117 299 264 608)(font "Arial" (color 0 0 0)))
+		(text "vsync" (rect 117 315 264 640)(font "Arial" (color 0 0 0)))
+		(text "leds" (rect 117 331 258 672)(font "Arial" (color 0 0 0)))
+		(text " cpu " (rect 254 352 538 714)(font "Arial" ))
+		(line (pt 112 32)(pt 160 32)(line_width 1))
+		(line (pt 160 32)(pt 160 352)(line_width 1))
+		(line (pt 112 352)(pt 160 352)(line_width 1))
+		(line (pt 112 32)(pt 112 352)(line_width 1))
+		(line (pt 113 52)(pt 113 76)(line_width 1))
+		(line (pt 114 52)(pt 114 76)(line_width 1))
+		(line (pt 113 92)(pt 113 116)(line_width 1))
+		(line (pt 114 92)(pt 114 116)(line_width 1))
+		(line (pt 113 132)(pt 113 156)(line_width 1))
+		(line (pt 114 132)(pt 114 156)(line_width 1))
+		(line (pt 113 172)(pt 113 196)(line_width 1))
+		(line (pt 114 172)(pt 114 196)(line_width 1))
+		(line (pt 113 212)(pt 113 252)(line_width 1))
+		(line (pt 114 212)(pt 114 252)(line_width 1))
+		(line (pt 113 268)(pt 113 340)(line_width 1))
+		(line (pt 114 268)(pt 114 340)(line_width 1))
+		(line (pt 0 0)(pt 272 0)(line_width 1))
+		(line (pt 272 0)(pt 272 368)(line_width 1))
+		(line (pt 0 368)(pt 272 368)(line_width 1))
+		(line (pt 0 0)(pt 0 368)(line_width 1))
+	)
+)
